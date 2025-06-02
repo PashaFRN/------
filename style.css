@@ -1,0 +1,242 @@
+.page{
+    min-width: 1440px;
+    height: 6411px;
+    margin: 0;
+}
+.header{
+border-style: solid;
+}
+.header__navigation-logo{
+max-width: 1200px;
+height: 90px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-style: solid;
+position: relative;
+left: 120px;
+color:red;
+}
+.header__logo{
+margin: 0;
+color: #1B1A1A;
+font-family: Poppins;
+position: relative;
+left: 32px;
+}
+.header__navigation{
+color: blueviolet;
+text-decoration: none;
+}
+.template-link{
+ color: brown;
+ text-decoration: none;   
+}
+.header__navigationfirst{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    position: relative;
+    right: 20px;
+}
+.readmore{
+    background-color: #ECE7E4;
+    display: flex;
+    justify-content: space-between;
+}
+.readmore__content{
+    width: 600px;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;    
+}
+.readmore__title{
+    width: 190px;
+    height: 20px;
+    font-family: Poppins;
+    color: #645C55;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    top: 60px;
+    letter-spacing: 2px;
+}
+.readmore__subtitle{
+    width: 417px;
+    height: 212px;
+    font-family: Poppins;
+    color: #1B1A1A;
+    font-size: 64px;
+}
+.readmore__text{
+    width: 509px;
+    height: 120px;
+    font-family: Poppins;
+    color: #403E3B;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+.readmore__link{
+    width: 133px;
+    height: 46px;
+    font-family: Poppins;
+    text-decoration: none;
+    color:#645C55;
+    position: relative;
+    left: 30px;
+}
+.ourfirm{
+
+}
+.ourfirm__content{
+    margin-bottom: 88px;
+    display: flex;
+    width: 768px;
+    height: 582px;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    right: 336px;
+    bottom: 336px;
+}
+.ourfirm__title{
+    margin: 0;
+    font-family: oppins;
+    width: 134px;
+    height: 38px;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    position: relative;
+    right: 132px;
+    bottom: 15px;
+}
+.ourfirm__text{
+    font-family: Poppins;
+    width: 493px;
+    height: 144px;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    bottom: 25px;
+}
+.ourfirm__whodid{
+    display: flex;
+    position: relative;
+    bottom: 28px;
+}
+.ourfirm__prodby{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    position: relative;
+    left: 31px;
+    bottom: 19px;
+    font-family: Poppins;  
+}
+.ourfirm__senior{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 90px;
+    font-family: Poppins;
+    font-size: 14px;
+}
+.ourfirm__img{
+    margin: 0;
+}
+.house__section{
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+.house__container{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 1080px;
+}
+.house__title{
+    font-family: Poppins;
+    width: 137px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #403E3B;
+    margin: 0;
+}
+.house__subtitle{
+    font-family: Poppins;
+    width: 285px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+    margin: 0;
+}
+.house__image{
+}
+
+.process__section{
+    display: flex;
+width: 1440px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+.process__container{
+width: 1200px;
+height: 381px;
+position: relative;
+top: 100px;
+left: 120px;
+background-color:cadetblue
+}
+.process__main__titles{
+   width: 600px;
+   height: 82px;
+   position:relative;
+   left: 300px;
+}
+.process__title{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: poppins;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #645C55;
+}
+
+.process__subtitle{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-size: 39px;
+    line-height: 42px;
+    margin: 0;
+    position: relative;
+    top: 17px;
+    color: #1B1A1A;
+}
+.process__goals{
+    width: 1168px;
+    height: 259px;
+    background-color: bisque;
+    position: relative;
+    left: 16px;
+    top: 40px;
+}
