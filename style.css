@@ -190,11 +190,11 @@ text-decoration: none;
 }
 
 .process__section{
-    display: flex;
+display: flex;
 width: 1440px;
-    height: 600px;
-    position: relative;
-    top: 100px;
+height: 600px;
+position: relative;
+top: 100px;
 }
 .process__container{
 width: 1200px;
@@ -202,7 +202,6 @@ height: 381px;
 position: relative;
 top: 100px;
 left: 120px;
-background-color:cadetblue
 }
 .process__main__titles{
    width: 600px;
@@ -233,10 +232,204 @@ background-color:cadetblue
     color: #1B1A1A;
 }
 .process__goals{
+    display: flex;
+    justify-content: space-around;
     width: 1168px;
     height: 259px;
-    background-color: bisque;
+    
     position: relative;
     left: 16px;
     top: 40px;
+}
+.process__sketching__title{
+left: 145px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #403E3B;
+}
+.process__sketching__subtitle{
+font-family: Poppins;
+font-size: 15px;
+line-height: 24px;
+width: 294px;
+height: 96px;
+text-align: center;
+margin: 0;
+color: #645C55;
+}
+.process__Finalizing__title{
+left: 149.33px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+text-align: center;
+color: #403E3B;
+}
+.process__Finalizing__subtitle{
+width: 292px;
+height: 72px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: #645C55;
+}
+.process__Building__title{
+left: 154.66px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+text-align: center;
+color: #403E3B;
+}
+.process__Building__subtitle{
+width: 285px;
+height: 96px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+margin: 0;
+color: #645C55;
+}
+.process__text{
+    display: flex;
+    align-items: end;
+    gap: 100px;
+    position: relative;
+    bottom: 10px;
+}
+.process__sketching__img{
+position: relative;
+left: 83px;
+top: 13px;
+}
+.process__Finalizing__img{
+position: relative;
+left: 83px;
+top: 5px;
+}
+.process__Building__img{
+position: relative;
+left: 83px;
+top: 13px;
+}
+
+.marble__section{
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    top: 80px;
+}
+.marble__container{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 1080px;
+}
+.marble__title{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 0;
+}
+.marble__subtitle{
+    font-family: Poppins;
+    width: 285px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+    margin: 0;
+}
+
+.customers__section{
+display: flex;
+width: 1440px;
+height: 410px;
+background-color:#403E3B ;
+position: relative;
+top: 80px;
+}
+.customers__container{
+width: 1168px;
+height: 290px;
+left: 136px;
+}
+.customers__title{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+width: 129px;
+height: 20px;
+color: #ECE7E4;
+margin: 0;
+}
+.customers__subtitle{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0%;
+width: 299px;
+height: 38px;
+margin: 0;
+color: #FFFFFF;
+}
+.customers__text{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+width: 451px;
+height: 72px;
+color: #ECE7E4;
+}
+.customers__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+.customers__logos{
+    display: flex;
+width: 432px;
+height: 290px;
+position: relative;
+right: 280px;
+top: 60px;
+justify-content: space-between;
+align-content: space-between;
+flex-wrap: wrap;
+}
+.customers__images {
+  width: 128px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 78px;
+}
+
+.customers__images img {
+  width: 45%; 
 }
