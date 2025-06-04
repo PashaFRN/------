@@ -168,14 +168,16 @@ text-decoration: none;
     left: 1080px;
 }
 .house__title{
-    font-family: Poppins;
     width: 137px;
     height: 20px;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
     color: #403E3B;
     margin: 0;
+    font-family: Poppins;
+font-weight: 400px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
 }
 .house__subtitle{
     font-family: Poppins;
@@ -432,4 +434,225 @@ flex-wrap: wrap;
 
 .customers__images img {
   width: 45%; 
+}
+
+.swirling__section{
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    top: 80px;
+}
+.swirling__container{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 60px;
+}
+.swirling__title{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 0;
+}
+.swirling__subtitle{
+    font-family: Poppins;
+    width: 285px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+    margin: 0;
+}
+
+.projects__section{
+width: 1440px;
+height: 918px;
+position: relative;
+top: 80px;
+display: flex;
+background-color: #F7F7F7;
+}
+.projects__container{
+    
+    width: 1200px;
+height: 698px;
+position: relative;
+top: 120px;
+left: 120px;
+}
+.projects__titles{
+    position: relative;
+    width: 600px;
+height: 112;
+left: 16px;
+
+}
+.projects__main__title{
+margin: 0;
+font-family: Poppins;
+font-weight: 400;
+font-size: 39px;
+line-height: 42px;
+letter-spacing: 0%;
+position: relative;
+width: 581px;
+height: 60px;
+bottom: 2px;
+}
+.projects__subtitle{
+margin: 0;
+font-family: Poppins;
+font-weight: 400px;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+position: relative;
+width: 581px;
+height: 60px;
+bottom: 10px;
+color: #645C55;
+}
+.projects__project{
+    display: flex;
+    width: 1168px;
+height: 460;
+top: 36px;
+left: 16px;
+position: relative;
+gap: 16px;
+justify-content: space-between;
+}
+.projects__titles__newyork{
+    position: absolute;
+    width: 207px;
+height: 50px;
+top: 40px;
+left: 438px;
+}
+.projects__title__newyork{
+font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 0;
+color: #645C55;
+}
+.projects__subtitle__road{
+font-family: Poppins;
+font-weight: 400;
+font-size: 23px;
+line-height: 30px;
+letter-spacing: 0%;
+margin: 0;
+color: #403E3B;
+}
+.projects__button{
+position: absolute;
+top: 369px;
+left: 442px;
+}
+.projects__button__link{
+    font-family: Poppins;
+font-weight: 400px;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #FFFFFF;
+width: 93px;
+height: 24px;
+margin: 0;
+background-color: #1B1A1A;
+border-radius: 115px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 11px;
+padding-bottom: 11px;
+text-decoration: none;
+}
+.projects__link{
+    position: absolute;
+width: 180px;
+height: 46px;
+top: 665px;
+left: 535px;
+}
+.projects__button__link__all{
+    font-family: Poppins;
+font-weight: 400px;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.4px;
+text-align: center;
+text-decoration: none;
+color: #1B1A1A;
+}
+.team__section{
+position: relative;
+width: 1440px;
+height: 592px;
+top: 80px;
+}
+.team__container{
+    display: flex;
+    width: 1168px;
+height: 392px;
+position: relative;
+left: 136px;
+top: 100px;
+}
+.team__titles{
+    background-color: brown;
+    width: 378.65625px;
+height: 392px;
+}
+.team__title__main{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0%;
+color: #403E3B;
+margin: 0;
+width: 240px;
+height: 38px ;
+top: -4px;
+}
+.team__sbutitle{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #645C55;
+width: 358px;
+height: 72px;
+top: 48px;
+}
+.team__link{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.4px;
+position: relative;
+width: 81px;
+height: 24px;
+top: 21px;
+left: 20px;
+text-decoration: none;
+color: #1B1A1A;
+}
+.team__people{
+width: 773.328125px;
+height: 392px;
+left: 394.67px;
+background-color: blueviolet;
 }
