@@ -91,9 +91,6 @@ text-decoration: none;
     position: relative;
     left: 30px;
 }
-.ourfirm{
-
-}
 .ourfirm__content{
     margin-bottom: 88px;
     display: flex;
@@ -607,10 +604,10 @@ height: 392px;
 position: relative;
 left: 136px;
 top: 100px;
+gap: 16px;
 }
 .team__titles{
-    background-color: brown;
-    width: 378.65625px;
+width: 378.65625px;
 height: 392px;
 }
 .team__title__main{
@@ -654,5 +651,254 @@ color: #1B1A1A;
 width: 773.328125px;
 height: 392px;
 left: 394.67px;
-background-color: blueviolet;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.team__people__stephan{
+    display: flex;
+margin-bottom: 52px;
+margin-top: 8px;
+}
+.team__people__ferris{
+display: flex;
+margin-bottom: 52px;
+}
+.team__people__niko{
+display: flex;
+
+}
+.team__people__nolan{
+display: flex;
+margin-top: 8px;
+margin-bottom: 52px;
+}
+.team__people__aria{
+display: flex;
+}
+
+.team__titles__stephan{
+position: relative;
+left: 30px;
+top: 23px;
+}
+.team__titles__ferris{
+position: relative;
+left: 30px;
+top: 23px;
+}
+.team__titles__niko{
+position: relative;
+left: 30px;
+top: 23px;
+}
+.team__titles__nolan{
+position: relative;
+left: 30px;
+top: 23px;
+}
+.team__titles__aria{
+position: relative;
+left: 30px;
+top: 23px;
+}
+.team__stephen__title{
+    font-family: Poppins;
+font-weight: 400px;
+font-size: 17px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #1B1A1A;
+margin: 0;
+}
+.team__ferris__title{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #1B1A1A;
+margin: 0;
+}
+.team__niko__title{
+    font-family: Poppins;
+font-weight: 400px;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #1B1A1A;
+margin: 0;
+}
+.team__nolan__title{
+    font-family: Poppins;
+font-weight: 400px;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #1B1A1A;
+margin: 0;
+}
+.team__aria__title{
+ font-family: Poppins;
+font-weight: 400px;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #1B1A1A;
+margin: 0;
+}
+.team__stephen__subtitle{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0%;
+color: #645C55;
+margin: 0;
+}
+.team__ferris__subtitle{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0%;
+color: #645C55;
+margin: 0;
+}
+.team__niko__subtitle{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0%;
+color: #645C55;
+margin: 0;
+}
+.team__nolan__subtitle{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0%;
+color: #645C55;
+margin: 0;
+}
+.team__aria__subtitle{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0%;
+color: #645C55;
+margin: 0;
+}
+.touch__section{
+    position: relative;
+    top: 80px;
+    width: 1440px;
+height: 314px;
+background-color: #CEC4BC;
+}
+.touch__container{
+position: absolute;
+width: 1168px;
+height: 114px;
+top: 100px;
+left: 136px;
+}
+.touch__titles{
+    position: absolute;
+    width: 576px;
+height: 114px;
+}
+.touch__title{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #645C55;
+margin: 0;
+}
+.touch__subtitle{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: 0%;
+color: #1B1A1A;
+margin: 0;
+}
+.touch__link{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 145px;
+height: 46;
+top: 45px;
+left: 1023px;
+text-decoration: none;
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #1B1A1A;
+}
+
+.footer{
+position: relative;
+width: 1440px;
+height: 204px;
+top: 80px;
+}
+.footer__container{
+position: relative;
+display: flex;
+width: 1168px;
+height: 84px;
+top: 60px;
+left: 136px;
+
+}
+.footer__tittles{
+width: 694.390625px;
+height: 84px;
+}
+.footer__title{
+position: relative;
+margin: 0;
+width: 256px;
+height: 22px;
+top: 2px;
+color: black ;
+font-family: poppins ;
+}
+.footer__subtitle{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #645C55;
+margin-top: 20px;
+margin-bottom: 0;
+}
+.footer__subtitle__licens{
+font-family: Poppins;
+font-weight: 400px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #645C55;
+margin: 0;
+}
+.footer__links{
+position: relative;
+display: flex;
+align-items: end;
+gap: 20px;
+left: 361px;
+top: 5px;
 }
