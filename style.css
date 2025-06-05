@@ -4,7 +4,7 @@
     margin: 0;
 }
 .header{
-border-style: solid;
+
 }
 .header__navigation-logo{
 max-width: 1200px;
@@ -12,7 +12,7 @@ height: 90px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-border-style: solid;
+
 position: relative;
 left: 120px;
 color:red;
@@ -28,9 +28,67 @@ left: 32px;
 color: blueviolet;
 text-decoration: none;
 }
-.template-link{
- color: brown;
- text-decoration: none;   
+.header__project__link{
+text-decoration: none;
+font-family: Poppins;
+font-weight: 400px;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1B1A1A;
+}
+.header__aboutt__link{
+text-decoration: none;
+font-family: Poppins;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1B1A1A;
+}
+.header__newst__link{
+text-decoration: none;
+font-family: Poppins;
+font-weight: 400px;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1B1A1A;
+}
+.header__team__link{
+text-decoration: none;
+font-family: Poppins;
+font-weight: 400px;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1B1A1A;
+}
+.header__contact__link{
+text-decoration: none;
+font-family: Poppins;
+font-weight: 400px;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1B1A1A;
+}
+.header__template-link{
+ color: white;
+ text-decoration: none;
+ font-family: Poppins;
+font-weight: 400px;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.4px;
+position: relative;
+left: 20px;
+background-color: #1B1A1A;
+border-radius: 115px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 11px;
+padding-bottom: 11px;   
 }
 .header__navigationfirst{
     margin: 0;
@@ -40,12 +98,14 @@ text-decoration: none;
     flex-direction: row;
     gap: 32px;
     position: relative;
-    right: 20px;
+    right: 60px;
 }
-.readmore{
+.readmore__section{
     background-color: #ECE7E4;
     display: flex;
     justify-content: space-between;
+    width: 1440px;
+height: 720px;
 }
 .readmore__content{
     width: 600px;
